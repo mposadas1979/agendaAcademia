@@ -9,6 +9,9 @@
     <?php require_once "dependencias.php"; ?>
 </head>
 <body>
+    <div class="container">
+        <?php require_once "menu.php"; ?>
+    </div>
     
 </body>
 </html>
