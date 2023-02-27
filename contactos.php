@@ -11,7 +11,20 @@
 <body>
     <div class="container">
         <?php require_once "menu.php"; ?>
+
+        <div class="jumbotron">
+            <h1 class="display-4">Contactos</h1>
+            <button class="btn btn-primary">
+                <spam class="fa-solid fa-user-plus"></spam>Agregar Contacto
+            </button>
+            <hr class="my-4">
+
+            <div id="cargaTablaContactos"></div>
+        </div>
+
+
     </div>
     
+    <script src="public/js/contactos.js"></script>
 </body>
 </html>

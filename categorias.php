@@ -11,7 +11,22 @@
 <body>
     <div class="container">
         <?php require_once "menu.php"; ?>
+
+        <div class="jumbotron">
+            <h1 class="display-4">Categorias</h1>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#modalAgregarCategoria">
+                <span class="fa-solid fa-book"></span>Agregar Categoria
+            </button>
+
+            <hr class="my-4">
+
+            <div id="cargaTablaCategorias"></div>
+        </div>
+
+        <?php  require_once "vistas/categorias/modalAgregar.php"; ?>
+
     </div>
     
+    <script src="public/js/categorias.js"></script>
 </body>
 </html>
