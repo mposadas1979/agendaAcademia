@@ -1,7 +1,7 @@
 <div class="card">
   <div class="card-body">
     <div class="table-responsive">
-        <table class="table table-hover table-condensed">
+        <table class="table table-hover table-condensed" id="tablaContactosDT">
             <thead>
                 <tr>
                     <th>Apellido paterno</th>
@@ -23,12 +23,12 @@
                     <td></td>
                     <td></td>
                     <td>
-                        <span class="btn btn-warning btn-sm">
+                        <span class="btn btn-warning btn-sm" data-toggle="modal" data-target="#modalActualizarContacto">
                             <span class="fa-solid fa-pen-to-square"></span>
                         </span>
                     </td>
                     <td>
-                        <span class="btn btn-danger btn-sm">
+                        <span class="btn btn-danger btn-sm" onclick="eliminarContacto()">
                             <span class="fa-solid fa-trash fa-fw"></span>
                         </span>
                     </td>
@@ -38,3 +38,9 @@
     </div>
   </div>
 </div>
+
+<script type=""text/javascript>
+    $(document).ready(function(){
+        $('#tablaContactosDT').DataTable();
+    });
+</script>

@@ -10,8 +10,8 @@
         </button>
       </div>
       <div class="modal-body">
-        <form id="frmActualizarCategorias" action="">
-            <input type="text" name="idCategoria" id="">
+        <form id="frmActualizarCategoria" action="">
+            <input type="text" name="idCategoria" id="idCategoria" hidden="">
             <label for="nombreCategoriaU">Nombre</label>
             <input type="text" id="nombreCategoriaU" name="nombreCategoriaU" class="form-control">
             <label for="descripcionU">Descripción</label>
@@ -20,7 +20,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-warning">Actualizar</button>
+        <button type="button" class="btn btn-warning" id="btnActualizarCategoria">Actualizar</button>
       </div>
     </div>
   </div>

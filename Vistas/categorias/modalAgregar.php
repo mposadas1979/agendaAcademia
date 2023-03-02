@@ -10,7 +10,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <form id="frmAgregarCategorias" action="">
+        <form id="frmAgregarCategoria">
             <label for="nombreCategoria">Nombre</label>
             <input type="text" id="nombreCategoria" name="nombreCategoria" class="form-control">
             <label for="descripcion">Descripción</label>
@@ -19,7 +19,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Guardar</button>
+        <button type="button" class="btn btn-primary" id="btnGuardarCategoria">Guardar</button>
       </div>
     </div>
   </div>

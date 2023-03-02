@@ -23,7 +23,12 @@
             <div id="cargaTablaCategorias"></div>
         </div>
 
-        <?php  require_once "vistas/categorias/modalAgregar.php"; ?>
+        <?php  
+        
+            require_once "vistas/categorias/modalAgregar.php"; 
+            require_once "vistas/categorias/modalActualizar.php";
+        
+        ?>
 
     </div>
     
